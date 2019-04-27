@@ -1,1 +1,1 @@
-#configure wifi at boot time
+# configure wifi at boot time
