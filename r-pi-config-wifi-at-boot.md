@@ -61,6 +61,7 @@ network={
 marius@rtsp1:~ $ cat /etc/network/interfaces
 source-directory /etc/network/interfaces.d
 
+```
 auto l0
 iface lo inet loopback
 
@@ -73,6 +74,7 @@ auto wlan0
 	wpa-ssid myssid
 	wpa-psk mypassword
 	wireless-power off
+```
 
 
 # a startup script 
