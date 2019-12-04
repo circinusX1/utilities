@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# watched over /dev/sda mounted drive. assuming this is a mechanical HDD
+# checks  /dev/sda mounted drive. This is a mechanical HDD
 # it stops the drive from spinning assuring  longer live
 # Run this form crontab as 'sudo crontab -e'
 # */15 * * * *    /home/pi/RUN/watchsda.sh > /dev/null
